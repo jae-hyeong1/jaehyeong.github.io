@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>설비 생산 현황</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/sub_style.css">
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/motion.js" defer></script>
 </head>
@@ -16,7 +15,7 @@
     <div id="wrap">
         <div id="header_wrap">
             <header id="header">
-                <h1><a href="index.html"><img src="images/force_tech.png"alt="포스텍 로고"></a></h1>
+                <h1><a href="index.html"><img src="images/force_tech.png" alt="포스텍 로고"></a></h1>
                 <nav>
                     <ul class="gnb">
                         <li>
@@ -106,7 +105,7 @@
 
 
                     <!-- 예지보전 이동 -->
-                   
+
                 </nav>
             </header>
 
@@ -146,12 +145,12 @@
             <div class="container">
 
                 <div class="contant1">
-                    <p>공장환경현황</p>
+                    <p>공장 환경현황</p>
 
                     <div class="list1">
 
                         <ul class="pm">
-                            <li><span>미세먼지</span><br><span>보통 22㎍/㎥</span><br><span>좋음</span></li>
+                            <li><span>미세먼지</span><br><span>22㎍/㎥</span><br><span>좋음</span></li>
                             <li><img src="images/pm_icon.png" alt="미세먼지 아이콘"></li>
 
 
@@ -159,52 +158,54 @@
 
 
                         <ul class="pm2">
-                            <li><span>초미세먼지</span><br><span>보통 22㎍/㎥</span><br><span>좋음</span></li>
-                            <li><img src="images/pm2_icon.png" alt="미세먼지 아이콘"></li>
+                            <li><span>초미세먼지</span><br><span>22㎍/㎥</span><br><span>좋음</span></li>
+                            <li><img src="images/pm2_icon.png" alt="초미세먼지 아이콘"></li>
                         </ul>
 
 
 
                         <ul class="pm3">
-                            <li><span>극초미세먼지</span><br><span>보통 22㎍/㎥</span><br><span>좋음</span></li>
-                            <li><img src="images/pm3_icon.png" alt="미세먼지 아이콘"></li>
+                            <li><span>극초미세먼지</span><br><span>22㎍/㎥</span><br><span>좋음</span></li>
+                            <li><img src="images/pm3_icon.png" alt="국초미세먼지 아이콘"></li>
                         </ul>
 
 
 
                         <ul class="co2">
                             <li><span>이산화탄소</span><br><span>479ppm</span><br><span>나쁨</span></li>
-                            <li><img src="images/co2.png" alt="미세먼지 아이콘"></li>
+                            <li><img src="images/co2.png" alt="이산화탄소 아이콘"></li>
                         </ul>
 
 
 
                         <ul class="voc">
                             <li><span>유기화합물</span><br><span>0.127ppm</span><br><span>보통</span></li>
-                            <li><img src="images/voc.png" alt="미세먼지 아이콘"></li>
+                            <li><img src="images/voc.png" alt="유기화합물 아이콘"></li>
                         </ul>
 
 
                         <ul class="temp">
                             <li><span>온도</span><br><span>26.2°C</span><br></li>
-                            <li><img src="images/temp.png" alt="미세먼지 아이콘"></li>
+                            <li><img src="images/temp.png" alt="온도 아이콘"></li>
                         </ul>
 
 
 
                         <ul class="humid">
                             <li><span>습도</span><br><span>18%</span></li>
-                            <li><img src="images/humid.png" alt="미세먼지 아이콘"></li>
+                            <li><img src="images/humid.png" alt="습도아이콘"></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="live">
                     <div class="contant2">
-                        <ul>
-                            <li>설비 생산현황</li>
-                            <li>실시간 상태현황</li>
-                        </ul>
+                        <div class="name2">
+                            <ul>
+                                <li>설비 생산현황</li>
+                                <li>실시간 상태현황</li>
+                            </ul>
+                        </div>
 
                         <div class="status">
                             <div class="ok">
@@ -229,105 +230,116 @@
                                 </ul>
                             </div>
                         </div>
+
+
+
+                        <div class="status-list">
+
+                            <div class="print">
+                                <div class="c1">
+                                    <p>인쇄기</p>
+                                </div>
+                                <div class="print-list">
+                                    <div class="list-box">
+                                        <ul class="tid1">
+                                            <li>작업지시번호</li>
+                                            <li>20240503-GP-003</li>
+
+                                        </ul>
+
+                                        <ul class="pname1">
+                                            <li>제품명</li>
+                                            <li>GSP-155195-35<br>
+                                                (PP(백색)(0.55*745))</li>
+                                        </ul>
+
+                                        <ul class="qstatus1">
+                                            <li>양품/불량</li>
+                                            <li>1 / 0</li>
+                                        </ul>
+
+                                        <ul class="pinfo1">
+                                            <li>생산계획 / 실적</li>
+                                            <li>000.000 / 000.000</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="bending">
+                                <div class="c2">
+                                    <p>밴딩기</p>
+                                </div>
+
+                                <div class="banding-list">
+                                    <div class="list-box2">
+
+                                        <ul class="tid2">
+                                            <li>작업지시번호</li>
+                                            <li>20240503-GP-003</li>
+                                        </ul>
+
+                                        <ul class="pname2">
+                                            <li>제품명</li>
+                                            <li>GSP-155195-35<br>
+                                                (PP(백색)(0.55*745))</li>
+                                        </ul>
+
+                                        <ul class="qstatus2">
+                                            <li>양품/불량</li>
+                                            <li>1 / 0</li>
+                                        </ul>
+
+                                        <ul class="pinfo2">
+                                            <li>생산계획 / 실적</li>
+                                            <li>000.000 / 000.000</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="thomson">
+                                <div class="c3">
+                                    <p>톰슨기</p>
+                                </div>
+                                <div class="thomson-list">
+                                    <div class="list-box3">
+
+                                        <ul class="tid3">
+                                            <li>작업지시번호</li>
+                                            <li>20240503-GP-003</li>
+                                        </ul>
+
+                                        <ul class="pname3">
+                                            <li>제품명</li>
+                                            <li>GSP-155195-35<br>
+                                                (PP(백색)(0.55*745))</li>
+                                        </ul>
+
+                                        <ul class="qstatus3">
+                                            <li>양품/불량</li>
+                                            <li>1 / 0</li>
+                                        </ul>
+
+                                        <ul class="pinfo3">
+                                            <li>생산계획 / 실적</li>
+                                            <li>000.000 / 000.000</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="status-list">
-
-                    <div class="print">
-                        <p>인쇄기</p>
-
-                        <div class="print-list">
-
-                            <ul class="tid1">
-                                <li>작업지시번호</li>
-                                <li>20240503-GP-003</li>
-
-                            </ul>
-
-                            <ul class="pname1">
-                                <li>제품명</li>
-                                <li>GSP-155195-35<br>
-                                    (PP(백색)(0.55*745))</li>
-                            </ul>
-
-                            <ul class="qstatus1">
-                                <li>양품/불량</li>
-                                <li>1 / 0</li>
-                            </ul>
-
-                            <ul class="pinfo1">
-                                <li>생산계획 / 실적</li>
-                                <li>000.000 / 000.000</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                    <div class="bending">
-                        <p>밴딩기</p>
-
-                        <div class="banding-list">
-
-                            <ul class="tid2">
-                                <li>작업지시번호</li>
-                                <li>20240503-GP-003</li>
-                            </ul>
-
-                            <ul class="pname2">
-                                <li>제품명</li>
-                                <li>GSP-155195-35<br>
-                                    (PP(백색)(0.55*745))</li>
-                            </ul>
-
-                            <ul class="qstatus2">
-                                <li>양품/불량</li>
-                                <li>1 / 0</li>
-                            </ul>
-
-                            <ul class="pinfo2">
-                                <li>생산계획 / 실적</li>
-                                <li>000.000 / 000.000</li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-                    <div class="thomson">
-                        <p>톰슨기</p>
-
-                        <div class="thomson-list">
-
-                            <ul class="tid3">
-                                <li>작업지시번호</li>
-                                <li>20240503-GP-003</li>
-                            </ul>
-
-                            <ul class="pname3">
-                                <li>제품명</li>
-                                <li>GSP-155195-35<br>
-                                    (PP(백색)(0.55*745))</li>
-                            </ul>
-
-                            <ul class="qstatus3">
-                                <li>양품/불량</li>
-                                <li>1 / 0</li>
-                            </ul>
-
-                            <ul class="pinfo3">
-                                <li>생산계획 / 실적</li>
-                                <li>000.000 / 000.000</li>
-                            </ul>
-
-                        </div>
-
-
-                    </div>
-
-
-                </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 
